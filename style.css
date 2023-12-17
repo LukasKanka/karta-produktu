@@ -1,0 +1,119 @@
+:root {
+  --special-yellow: hsl(56, 94%, 49%);
+  --special-red: #db090d;
+}
+
+.product-only {
+  background-color: var(--special-yellow);
+  position: absolute;
+  border-radius: 50%;
+  width: 120px;
+  height: 80px;
+  margin-top: 50px;
+  margin-left: 20px;
+  text-align: center;
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.discount-badge {
+  background-color: var(--special-red);
+  position: absolute;
+  border-radius: 50%;
+  width: 120px;
+  height: 80px;
+  margin-top: 200px;
+  margin-left: 20px;
+  text-align: center;
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.product-image {
+  width: 95%;
+  height: 90%;
+}
+
+h1 {
+  color: rgb(8, 126, 126);
+  /* margin-top: 3px; */
+}
+
+.button {
+  color: red;
+  border-style: solid;
+  text-decoration: none;
+  padding-right: 6px;
+}
+.product-price-container {
+  padding: 8px;
+  background-color: palevioletred;
+  margin-bottom: 16px;
+  position: relative;
+  border-radius: 6px;
+  top: 15px;
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 40px;
+  display: inline-block;
+  padding: 8px;
+
+  background-color: red;
+  border-radius: 6px;
+}
+
+.product-price-old {
+  font-size: 20px;
+  color: white;
+  text-decoration: line-through;
+  width: 75px;
+  background-color: var(--special-yellow);
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding-left: 25px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.shopping-button {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  border-radius: 6px;
+  background-color: rgb(231, 231, 149);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.product-card {
+  width: 450px;
+  background-color: white;
+  padding: 16px;
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.stock {
+  font-weight: bold;
+  color: green;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.transport {
+  padding-left: 70px;
+  font-size: 25px;
+  font-weight: bold;
+}
